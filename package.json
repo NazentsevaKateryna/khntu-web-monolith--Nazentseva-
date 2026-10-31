@@ -12,7 +12,8 @@
     "@prisma/client": "^6.19.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
@@ -23,9 +24,6 @@
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.5.0"
   },
-
-
-  
   "prisma": {
     "seed": "ts-node prisma/seed.ts"
   }
